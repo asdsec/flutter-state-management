@@ -1,16 +1,11 @@
-# flutter_state_management
+# Flutter State Management
 
-A new Flutter project.
+A project involving several samples of state management
 
-## Getting Started
+## What is State Management
 
-This project is a starting point for a Flutter application.
+Actually this is depends on your level and experience, so there can be a lot of definition. I will write some experienced developers's definition for state management.
 
-A few resources to get you started if this is your first Flutter project:
+What is state management:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- the mechanism by which you glue together various layers of your application, and usually that includes going through your service layer through your business layer and ui layer,  
