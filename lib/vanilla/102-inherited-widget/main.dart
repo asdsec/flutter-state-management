@@ -17,7 +17,11 @@ void main() {
   );
 }
 
-/// all variable have to be final
+/// Note: Both [InheritedModel] and [InheritedModel] are constant,
+/// so their variables must not be changed.
+/// I mean all variable have to be final,
+/// and they need updatable thing such as [StatefulWidget] to update their variables.
+/// I mean 'redraw the widget'.
 class ApiProvider extends InheritedWidget {
   final Api api;
   final String uuid;
